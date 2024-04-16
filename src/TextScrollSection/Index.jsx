@@ -54,6 +54,11 @@ const Container = styled.div`
   align-items: start;
   flex-direction: column;
   padding: 5rem 0 5rem 6rem;
+
+  @media (max-width: 768px) {
+    padding: 3rem 1rem;
+  
+  }
   
 
 `;
@@ -66,6 +71,12 @@ const Space = styled.div`
   align-items: center;
   font-size: 3rem;
   background-color: #202020;
+
+  @media (max-width: 768px) {
+    height: 30rem;
+    font-size: 2rem;
+  
+  }
 `
 
 export function MaskText() {
